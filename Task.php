@@ -3,7 +3,7 @@
 class Task
 {
     public $title;
-    private $description;
+    protected $description;
     public $completed = false;
 
     public function __construct($title)
