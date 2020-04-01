@@ -1,6 +1,6 @@
 <?php
 
-class Task
+abstract class Task
 {
     public $title;
     protected $description;
@@ -24,8 +24,5 @@ class Task
         $this->description = $description;
     }
 
-    public function getDescription()
-    {
-        return "Description: $this->description \n";
-    }
+    public abstract function getDescription();
 }
