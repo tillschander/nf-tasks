@@ -1,6 +1,8 @@
 <?php
 
-class DailyTask extends Task
+namespace NeueFische\Task;
+
+class DailyTask extends \NeueFische\Task
 {
     private $time;
 

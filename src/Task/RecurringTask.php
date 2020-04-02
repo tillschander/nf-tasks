@@ -1,6 +1,8 @@
 <?php
 
-class RecurringTask extends Task
+namespace NeueFische\Task;
+
+class RecurringTask extends \NeueFische\Task
 {
     public $day = 'Montag';
 

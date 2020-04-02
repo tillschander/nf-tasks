@@ -1,5 +1,7 @@
 <?php
 
+namespace NeueFische;
+
 class TaskList implements TaskListInterface
 {
     private $tasks = [];

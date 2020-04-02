@@ -1,5 +1,7 @@
 <?php
 
+namespace NeueFische;
+
 abstract class Task
 {
     public $title;
@@ -19,7 +21,7 @@ abstract class Task
     public function setDescription($description)
     {
         if (strlen($description) > 140) {
-            throw new Exception('Description is too long.');
+            throw new \Exception('Description is too long.');
         }
         $this->description = $description;
     }

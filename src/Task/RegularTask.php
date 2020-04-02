@@ -1,6 +1,8 @@
 <?php
 
-class RegularTask extends Task
+namespace NeueFische\Task;
+
+class RegularTask extends \NeueFische\Task
 {
     public function getDescription()
     {
